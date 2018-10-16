@@ -17,3 +17,10 @@ GitLab to GitHub, for example.
 git remotes remove origin
 git remotes add origin [url-to-repo].git
 ```
+
+## npm
+
+### Check which files will be published to npm registry
+```bash
+npm pack && tar -xvzf *.tgz && rm -rf package *.tgz
+```
