@@ -11,7 +11,7 @@ setTimeout(() => {debugger}, 3000);
 
 ## Git
 
-### Move repo remote from one provider to another
+### Move repo remote from one provider to another while retaining history
 GitLab to GitHub, for example.
 ```bash
 git remotes remove origin
